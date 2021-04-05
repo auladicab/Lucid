@@ -325,16 +325,130 @@ header p{
 .text-with-icon i{
     color: #44ace1;
     font-size: 18px;
-    margin-right: 10px;
     margin-top: 15px;
     height: 20px;
-    width: 20px;
+    width: 40px;
 }
 .text-with-icon h3{
     color: #1b1b1b;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    margin-top: 15px;
+    
 
+}
+.testimonial{
+    background-image: url(../images/lbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quality{
+
+}
+.quality h5{
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+.quality h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+.testimonial span{
+    display: inline-block;
+    height: 3px;
+    width: 70px;
+    position: relative;
+
+}
+.testimonial span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+.testimonial span::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+} 
+.testimonial:hover span::after{
+    width: 45%;
+}
+.testimonial:hover span::before{
+    width: 45%;
+}
+.testimonial P{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+
+}
+.client{
+    width: 43%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.client-img{
+    width: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.client-des{
+
+}
+.client-des h2{
+    font-size: 18px ;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+.client-des h6{
+    font-size: 18px ;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    
+}
+.owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    display:inline-block;
+    background:#ffffff ;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.owl-dots .active span{
+    width: 15px;
+    height: 15px;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
