@@ -65,6 +65,13 @@ header p{
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
+canvas{
+    position: absolute;
+    top: 0;
+}
+#particles-js{
+    position: relative;
+}
 .btn-download{
     color: #ffffff;
     text-transform: uppercase;
@@ -451,3 +458,218 @@ header p{
     justify-content: center;
     align-items: center;
 }
+.like-what{
+    background: black;
+}
+.like h3{
+    color: #ffffff;
+    font-size: 30px;
+    padding: 25px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.button{
+    padding:25px 0 ;
+    margin-right: 0px;
+}
+.pricings{
+    background: #ffffff;
+}
+.pricings-text h5{
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.pricings-text h1{
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.pricings span{
+    display: inline-block;
+    height: 3px;
+    width: 70px;
+    position: relative;
+}
+.pricings .span-1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out
+}
+.pricings .span-1::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+} 
+.pricings:hover .span-1::after{
+    width: 45%;
+}
+.pricings:hover .span-1::before{
+    width: 45%;
+}
+.table .tr1 h3{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.table:hover .tr1 h3{
+    color: #008ed6;
+}
+ 
+.table .tr2 h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    transition: 1s all ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.table:hover .tr2 h1{
+    color: #ffffff;
+}
+.table:hover .tr p{
+    color: #ffffff;
+}
+.table .tr2{
+    background-color: transparent;
+    transition: 1s all ease-in-out;
+}
+.table:hover .tr2{
+    background-color: #008ed6;
+}
+.table .tr3 p{
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-order-now:hover{
+    background-color: #008ed6;
+    color: #ffffff;
+    border: 1px solid #008ed6;
+}
+.btn-order-now{
+    font-weight: 700;
+    border: 1px solid #999999;
+    font-family: 'Open Sans', sans-serif;
+    width: 150px;
+    height: 35px;
+}
+.contact span{
+    display: inline-block;
+    height: 3px;
+    width: 70px;
+    position: relative;
+}
+.contact .span-1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out
+}
+.contact .span-1::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+} 
+.contact:hover .span-1::after{
+    width: 45%;
+}
+.contact:hover .span-1::before{
+    width: 45%;
+}
+.col-md-4 i{
+    font-size: 30px;
+    color: #008ed6;
+    margin-bottom: 20px;
+}
+.col-md-4 p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+}
+.contact{
+    background:#f2f2f2;
+    position: relative;
+    
+}
+.contact-form{
+    background: black;
+    padding: 50px;
+    position: absolute;
+     
+}
+form{
+    
+}
+
+.form-control{
+    background: transparent;
+    border-radius: 3px;
+}
+form input[type="submit"]{
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    background: #008ed6;
+    padding: 7px 15px;
+    border: none;
+    float: right;
+}
+footer{
+    background-color:black;
+}
+.footer-content{
+    padding: 30px 0;
+    margin: auto;
+    overflow: hidden
+}
+
+.copyright h3{
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.footer-icon i{
+    justify-content: space-between;
+    font-size: 25px;
+    color: #999999;
+    width: 5%;
+    
+   
+}
+.footer-icon i:hover{
+    color: #ffffff;
+}
+
