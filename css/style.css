@@ -81,6 +81,7 @@ canvas{
     letter-spacing: 1px;
     border:1px solid #999999;
     transition: .4s all ease-in-out;
+    z-index: 999;
 
 }
 .btn-features{
@@ -93,6 +94,7 @@ canvas{
     border:1px solid #999999;
     margin-left: 20px;
     transition: .4s all ease-in-out;
+    z-index: 999;
 }
 .btn-features:hover{
     background: #008ed6;
